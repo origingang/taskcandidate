@@ -4,14 +4,16 @@
   "description": "taskcandidate",
   "main": "myApp.js",
   "scripts": {
-    "test": "jest myApp.js"
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.19.2",
-    "puppeteer": "^22.8.0"
+    "mongoose": "^8.3.4",
+    "puppeteer": "^22.8.0",
+    "supertest": "^7.0.0"
   },
   "devDependencies": {
     "jest": "^29.7.0"
