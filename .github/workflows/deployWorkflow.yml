@@ -14,4 +14,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-#      - name: 
+      - name: Baixando as dependencias
+        run: npm install jest --save
+
+      - name: Code testing
+        run: npm test myApp.js
