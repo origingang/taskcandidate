@@ -14,6 +14,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
+      - name: Inicializando NPM
+        run: npm init -y
+
       - name: Baixando as dependencias
         run: npm install jest --save
 
