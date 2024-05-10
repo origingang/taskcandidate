@@ -1,6 +1,7 @@
-const mongoose = require("mongoose")
-const request = require("supertest")
-const app = require("../src/myApp.js")
+const mongoose = require("mongoose");
+const request = require("supertest");
+const app = require("../src/myApp.js");
+require("dotenv").config();
 
 describe("GET /index.html", () => {
     it("should return 200", async () => {

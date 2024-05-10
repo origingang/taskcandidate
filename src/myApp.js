@@ -6,6 +6,6 @@ const port = 3000;
 app.get('/',(req,res)=>{
     res.sendFile(path.join(__dirname + '/index.html'))
 })
-app.listen(port,()=>{
-    console.log(`Executando em s3`)
-})
+//app.listen(port,()=>{
+//    console.log(`Executando em s3`)
+//})
