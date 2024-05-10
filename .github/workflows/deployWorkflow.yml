@@ -1,0 +1,14 @@
+name: Deploy CICD
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  install:
+    name: Install Deps
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install Dependencies
+        uses: actions/checkout@v3
