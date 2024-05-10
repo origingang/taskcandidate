@@ -18,5 +18,5 @@ jobs:
         run: npm install express puppeteer
 
       - name: Code testing
-        run: npm test src/myApp.js
+        run: npm run test
   
