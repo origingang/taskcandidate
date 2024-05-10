@@ -4,7 +4,7 @@
   "description": "taskcandidate",
   "main": "myApp.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest myApp.js"
   },
   "keywords": [],
   "author": "",
