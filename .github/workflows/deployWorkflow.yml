@@ -22,3 +22,7 @@ jobs:
 
       - name: Code testing
         run: npm test myApp.js
+
+      - name: Efetuado push para branch release
+        run: git commit -a -m "subindo para release" && git push origin release
+  
