@@ -7,22 +7,16 @@ on:
 
 jobs:
   build:
-    name: Install Deps
+    name: Building App
     runs-on: ubuntu-latest
     steps:
 
       - name: Checkout
         uses: actions/checkout@main
 
-      - name: Inicializando NPM
-        run: npm init -y
-
-      - name: Baixando as dependencias
-        run: npm install jest --save
+      - name: Installing dependencies
+        run: npm install express puppeteer
 
       - name: Code testing
-        run: npm test myApp.js
-
-      - name: Efetuado push para branch release
-        run: git commit -a -m "subindo para release" && git push origin release
+        run: npm test src/myApp.js
   
