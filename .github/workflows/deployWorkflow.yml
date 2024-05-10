@@ -18,11 +18,7 @@ jobs:
         run: npm init -y
 
       - name: Baixando as dependencias
-        run: npm install jest --save
+        run: npm install jest
 
       - name: Code testing
         run: npm test myApp.js
-
-      - name: Efetuado push para branch release
-        run: git commit -a -m "subindo para release" && git push origin release
-  
