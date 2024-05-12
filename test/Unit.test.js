@@ -6,8 +6,8 @@ require("dotenv").config();
 describe("GET /index.html", () => {
     it("should return 200", async () => {
         return request(app)
-            .get("/index.html")
-            .expect('Content-Type', /json/)
+            .get("/")
+            .expect('Content-Type', text/html)
             .expect(200)
             .then((res) => {
                 expect(res.statusCode).toBe(200);
