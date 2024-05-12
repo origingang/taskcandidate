@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 const request = require("supertest");
-const app = require("../src/myApp.js");
+const app = require("express");
 require("dotenv").config();
 
 describe("GET /index.html", () => {
