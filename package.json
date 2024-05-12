@@ -5,7 +5,6 @@
   "main": "myApp.js",
   "scripts": {
     "test": "jest"
-    "lint": "jshint src/myApp.js"
   },
   "keywords": [],
   "author": "",
